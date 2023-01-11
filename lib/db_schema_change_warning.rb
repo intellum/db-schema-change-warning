@@ -19,6 +19,9 @@ module DbSchemaChangeWarning
       puts "If you are adding a new table see these requirements:"
       puts "https://engineering-portal-internal.intellum.com/docs/wikis/ml-data/Requirements-for-tables-ingested-in-our-data-warehouse"
       puts
+      puts "See also the Data Modeling Recommendations:"
+      puts "https://engineering-portal-internal.intellum.com/docs/datadesignrecs/data-design-recommendations"
+      puts
       puts "<-- Thanks!"
       puts
     end
