@@ -27,7 +27,7 @@ module DbSchemaChangeWarning
     end
   end
 
-  def method_missing(method, *args) # Executed when a migration methods runs, e.g. add_column.
+  def method_missing(method, ...) # Executed when a migration methods runs, e.g. add_column.
     @warn = true if method.in?(WARNING_OPERATIONS)
     super
   end
