@@ -20,7 +20,7 @@ module DbSchemaChangeWarning
       puts "https://engineering-portal-internal.intellum.com/docs/wikis/ml-data/Requirements-for-tables-ingested-in-our-data-warehouse"
       puts
       puts "See also the Data Modeling Recommendations:"
-      puts "https://engineering-portal-internal.intellum.com/docs/datadesignrecs/data-design-recommendations"
+      puts "https://engineering-portal-internal.intellum.com/docs/wikis/data/data_modeling_recommendations"
       puts
       puts "<-- Thanks!"
       puts
